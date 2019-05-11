@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mopub/mopub-ios-mediation'
   s.license          = { :type => 'New BSD', :file => 'LICENSE' }
   s.author           = { 'MoPub' => 'support@mopub.com' }
-  s.source           = { :git => 'https://github.com/mopub/mopub-ios-mediation.git', :commit => '701d982059d236fbc411d22d91cbe27dcddf6519' }
+  s.source           = { :git => 'https://github.com/bundlenews/mopub-ios-mediation.git', :tag => '7.34.0.0-bundle'' }
   s.ios.deployment_target = '8.0'
   s.static_framework = true
   s.source_files = 'AdMob/*.{h,m}'
