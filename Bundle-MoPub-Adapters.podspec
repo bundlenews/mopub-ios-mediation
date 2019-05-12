@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author           = { 'MoPub' => 'support@mopub.com' }
   s.source           = { :git => 'https://github.com/bundlenews/mopub-ios-mediation.git', :tag => '1.0.0-bundle' }
   s.ios.deployment_target = '8.0'
-  # s.static_framework = true
+  s.static_framework = true
 
   s.default_subspecs = 'Bundle'
 
