@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Bundle-MoPub-Adapters'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'Google and Facebook Audience Network adapters for mediating through MoPub.'
   s.description      = <<-DESC
   Admob:\n
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mopub/mopub-ios-mediation'
   s.license          = { :type => 'New BSD', :file => 'AdMob/MoPub-AdMob-Podspecs/LICENSE' }
   s.author           = { 'MoPub' => 'support@mopub.com' }
-  s.source           = { :git => 'https://github.com/bundlenews/mopub-ios-mediation.git', :tag => '1.0.0-bundle' }
-  s.ios.deployment_target = '8.0'
+  s.source           = { :git => 'https://github.com/bundlenews/mopub-ios-mediation.git', :tag => 'bundle-5.9.0' }
+  s.ios.deployment_target = '9.0'
   s.static_framework = true
 
   s.default_subspecs = 'Bundle'
