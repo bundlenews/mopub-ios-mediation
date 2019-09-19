@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Bundle-MoPub-Adapters'
-  s.version          = '2.0.0'
+  s.version          = '5.9.0'
   s.summary          = 'Google and Facebook Audience Network adapters for mediating through MoPub.'
   s.description      = <<-DESC
   Admob:\n
@@ -32,14 +32,14 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'AdMob' do |admob|
-    admob.dependency 'mopub-ios-sdk', '~> 5.0'
-    admob.dependency 'Google-Mobile-Ads-SDK', '7.31.0'
+    admob.dependency 'mopub-ios-sdk', '~> 5.9.0'
+    admob.dependency 'Google-Mobile-Ads-SDK', '7.50.0'
     admob.source_files = 'AdMob/*.{h,m}'
   end
 
   s.subspec 'FacebookAudienceNetwork' do |fan|
-    fan.dependency 'mopub-ios-sdk', '~> 5.0'
-    fan.dependency 'FBAudienceNetwork', '4.28.1'
+    fan.dependency 'mopub-ios-sdk', '~> 5.9.0'
+    fan.dependency 'FBAudienceNetwork', '5.5.0'
     fan.source_files = 'FacebookAudienceNetwork/*.{h,m}'
   end
 end
